@@ -65,8 +65,17 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="page-header-holder mt-5 text-white">
-                        <h1 class="fs-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nam blanditiis odio, fuga libero nostrum. Mollitia animi ullam, perferendis, vero voluptatem sequi ipsam quis totam distinctio ab illum impedit minima.</p>
+                        <h1 class="fs-3">Search result for <q>Your search query</q></h1>
+                        <form class="d-flex col-md-8" role="search">
+                            <div class="input-group">
+                                <input type="search" class="form-control form-control-sm" placeholder="Search for...">
+                                <button type="submit" class="btn btn-sm btn-success">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -79,62 +88,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="content-holder">
-                        <img src="https://picsum.photos/1200/600" class="rounded img-fluid">
-                        <div class="post-content mb-3">
-                            <h1>Heading One</h1>
-                            <h2>Heading Two</h2>
-                            <h3>Heading Three</h3>
-                            <h4>Heading Four</h4>
-                            <h5>Heading Five</h5>
-                            <h6>Heading Six</h6>
-
-                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                            <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem ab a ullam odit earum labore nesciunt vel, incidunt dolores nam perspiciatis, tenetur reiciendis molestiae consequatur quam, aperiam eos animi cupiditate?</span><span>Eaque quaerat, eum saepe vero pariatur quod. Voluptatem dolorem animi odio maiores voluptates neque eligendi non aperiam reiciendis dolore, explicabo dicta ipsam fugit atque? Dolor molestiae commodi ab suscipit soluta.</span></p>
-                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum accusantium nesciunt, possimus beatae temporibus modi eos suscipit tempora quis sequi pariatur est cupiditate error amet qui voluptatem. A, nihil.</span><span>Cupiditate, fugit magnam, optio cum nemo dicta maxime hic voluptas iure eius culpa quam iusto sapiente. Quam nobis vero quae fuga voluptas pariatur dicta, culpa cupiditate repellendus neque! Laborum, iure?</span></p>
-                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem debitis pariatur dolore impedit nulla incidunt magni maiores earum voluptatibus, id sed illum, repudiandae rem corrupti iure esse! Ex, minus!</span><span>Quam harum tempore consequuntur nihil, consectetur minus dolor ea perspiciatis laudantium voluptatum eum veritatis error excepturi natus ullam maxime amet nulla repudiandae ipsa officia corrupti accusantium earum tempora eveniet. Ipsam.</span></p>
-                        </div>
-                        <div class="comment-form mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="fs-6">Post your toughts</h3>
-                                    <form>
-                                        <div class="row gx-2">
-                                            <div class="col-md-6">
-                                                <div class="mb-2">
-                                                    <input type="text" class="form-control form-control-sm" placeholder="First Name" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="mb-2">
-                                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="mb-2">
-                                                    <input type="email" class="form-control form-control-sm" placeholder="johndoe@gmail.com" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="mb-2">
-                                                    <textarea rows="5" class="form-control formc-control-sm" placeholder="Your comments"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="d-grid">
-                                                    <button
-                                                        type="submit"
-                                                        class="btn btn-success btn-sm">
-                                                        Submit comment
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>      
-                                </div>
+                    <a href="#" class="list-group-item list-group-item-action text-dark mb-3">
+                        <article class="row align-items-center">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/600" alt="" class="img-fluid rounded">
                             </div>
-                        </div>
-                    </div>
+                            <div class="col-md-9">
+                                <h3 class="fs-5 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                                <p class="fw-light small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis blanditiis fugit, aliquid, asperiores mollitia ipsum in quae.</p>
+                                <p class="text-secondary small">
+                                    <strong>Category: </strong> DevOps
+                                    <strong>Posted on: </strong> 29th July 2025
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action text-dark mb-3">
+                        <article class="row align-items-center">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/600" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="fs-5 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                                <p class="fw-light small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis blanditiis fugit, aliquid, asperiores mollitia ipsum in quae.</p>
+                                <p class="text-secondary small">
+                                    <strong>Category: </strong> DevOps
+                                    <strong>Posted on: </strong> 29th July 2025
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action text-dark mb-3">
+                        <article class="row align-items-center">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/600" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="fs-5 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                                <p class="fw-light small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis blanditiis fugit, aliquid, asperiores mollitia ipsum in quae.</p>
+                                <p class="text-secondary small">
+                                    <strong>Category: </strong> DevOps
+                                    <strong>Posted on: </strong> 29th July 2025
+                                </p>
+                            </div>
+                        </article>
+                    </a>
                 </div>
                 <div class="col-md-4">
                     <div class="card text-bg-primary mb-3">
